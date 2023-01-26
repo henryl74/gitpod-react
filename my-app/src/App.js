@@ -15,7 +15,10 @@ import "./App.css";
 // import LifeCyclesCDU from "./components/LifeCyclesCDU";
 // import LifeCyclesCWU from "./components/LifeCyclesCWU";
 // import ControlledForm from "./components/ControlledForm";
-import UncontrolledForm from "./components/UncontrolledForm";
+// import UncontrolledForm from "./components/UncontrolledForm";
+// import SearchBar1 from "./components/SearchBar1";
+// import SearchBar2 from "./components/SearchBar2";
+import SearchBar3 from "./components/SearchBar3";
 
 function App() {
   return ( 
@@ -34,7 +37,10 @@ function App() {
       {/* <LifeCyclesCDU /> */}
       {/* <LifeCyclesCWU /> */}
       {/* <ControlledForm /> */}
-      <UncontrolledForm />
+      {/* <UncontrolledForm /> */}
+      {/* <SearchBar1 /> */}
+      {/* <SearchBar2 /> */}
+      <SearchBar3 />
     </div >
   );
 }
