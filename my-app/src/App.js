@@ -19,8 +19,9 @@ import "./App.css";
 // import SearchBar1 from "./components/SearchBar1";
 // import SearchBar2 from "./components/SearchBar2";
 // import SearchBar3 from "./components/SearchBar3";
-import HooksCounter from "./components/HooksCounter";
-import ClassCounter from "./components/ClassCounter";
+// import HooksCounter from "./components/HooksCounter";
+// import ClassCounter from "./components/ClassCounter";
+import ControlledFormHooks from "./components/ControlledFormHooks";
 
 function App() {
   return ( 
@@ -43,8 +44,9 @@ function App() {
       {/* <SearchBar1 /> */}
       {/* <SearchBar2 /> */}
       {/* <SearchBar3 /> */}
-      <HooksCounter />
-      <ClassCounter />
+      {/* <HooksCounter /> */}
+      {/* <ClassCounter /> */}
+      <ControlledFormHooks />
     </div >
   );
 }
