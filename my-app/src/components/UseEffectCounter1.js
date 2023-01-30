@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 
 function UseEffectCounter1() {
   const [count, setCount] = useState(0);
@@ -23,4 +23,4 @@ function UseEffectCounter1() {
   );
 }
 
-export default UseEffectCounter1;
+export default UseEffectCounter1
