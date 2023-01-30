@@ -25,7 +25,8 @@ import "./App.css";
 // import UseStateWithArrays from "./components/UseStateWithArrays";
 // import UseStateWithObjects from "./components/UseStateWithObjects";
 // import ClassCounter1 from "./components/ClassCounter1";
-import UseEffectCounter from "./components/UseEffectCounter";
+// import UseEffectCounter from "./components/UseEffectCounter";
+import UseEffectCounter1 from "./components/UseEffectCounter1";
 
 function App() {
   return ( 
@@ -54,7 +55,8 @@ function App() {
       {/* <UseStateWithArrays /> */}
       {/* <UseStateWithObjects /> */}
       {/* <ClassCounter1 /> */}
-      <UseEffectCounter />
+      {/* <UseEffectCounter /> */}
+      <UseEffectCounter1 />
     </div >
   );
 }
