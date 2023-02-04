@@ -31,7 +31,8 @@ import "./App.css";
 // import UseEffectCounter3 from "./components/UseEffectCounter3";
 // import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
 // import HTTPRequests from "./components/HTTPRequests";
-import HTTPPost from "./components/HTTPPost";
+// import HTTPPost from "./components/HTTPPost";
+import HTTPHooks from "./components/HTTPHooks";
 
 function App() {
   return ( 
@@ -66,7 +67,8 @@ function App() {
       {/* <UseEffectCounter3 /> */}
       {/* <UseEffectCounterContainer /> */}
       {/* <HTTPRequests /> */}
-      <HTTPPost />
+      {/* <HTTPPost /> */}
+      <HTTPHooks />
     </div >
   );
 }
