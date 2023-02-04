@@ -29,7 +29,8 @@ import "./App.css";
 // import UseEffectCounter1 from "./components/UseEffectCounter1";
 // import UseEffectCounter2 from "./components/UseEffectCounter2";
 // import UseEffectCounter3 from "./components/UseEffectCounter3";
-import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
+// import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
+import HTTPRequests from "./components/HTTPRequests";
 
 function App() {
   return ( 
@@ -62,7 +63,8 @@ function App() {
       {/* <UseEffectCounter1 /> */}
       {/* <UseEffectCounter2 /> */}
       {/* <UseEffectCounter3 /> */}
-      <UseEffectCounterContainer />
+      {/* <UseEffectCounterContainer /> */}
+      <HTTPRequests />
     </div >
   );
 }
